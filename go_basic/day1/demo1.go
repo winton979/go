@@ -8,4 +8,6 @@ import (
 func main() {
 	f.Print("hello world")
 
+	x := 1
+	f.Println(*&x)
 }
